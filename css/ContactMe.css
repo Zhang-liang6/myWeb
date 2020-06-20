@@ -1,0 +1,101 @@
+/*全局布局*/
+body{
+	margin:0;
+	background-color:#F5F5F5;
+}
+
+div.inner{
+	width:1000px;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*页眉区布局*/
+div#header{
+	height:360px;
+	background-image:url(../images/19.jpg);
+	background-repeat:no-repeat;
+}
+
+/*导航区布局*/
+div#nav{
+	height:55px;
+	background-color:#EEC591;
+	margin:0;
+	padding:0;
+}
+
+/*表单区布局*/
+form {
+	display:table;
+	padding:10px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	border:thin dotted #7e7e7e;
+	background-color:#DEB887;
+}
+
+form textarea {
+	width: 300px;
+	height: 350px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+
+/*页脚区布局*/
+div#footer{
+	height:80px;
+	background-color:#EEC591;
+	font-family:"SimsSun";
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*导航区的样式*/
+div#nav .ul{
+	margin:0px auto 0px auto;
+	padding:0;
+	height:55px;
+}
+
+div#nav .li{
+	float:left;
+	list-style-type:none;
+}
+
+div#nav .a{
+	display:block;
+	background-color:#EEC591;
+	color:#030303;
+	width:200px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	font-size:20px;	
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 10px 0;
+	text-decoration: none;
+}
+
+div#nav .a:hover{
+	background-color:#EE9A00;
+}

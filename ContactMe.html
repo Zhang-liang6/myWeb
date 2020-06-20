@@ -1,0 +1,79 @@
+<!--我的个人网站-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ContactMe</title>
+		<link rel="stylesheet" type="text/css" href="css/ContactMe.css">
+	</head>
+	
+	<body>
+		<!--对整体设置公共类inner,用来放置内容，内容区宽度固定,内容居中-->
+		<div class="inner">
+			<!--页眉区header-->
+			<div id="header">
+			</div>
+			<!--end of header-->
+			<!--导航区nav-->
+			<div id="nav">
+				<ul class="ul">
+					<li class="li"><a class="a" href="index.html">首页</a></li>
+					<li class="li"><a class="a" href="CollegeLife-学校简介.html">大学生活</a></li>
+					<li class="li"><a class="a" href="MyHometown.html">我的家乡</a></li>
+					<li class="li"><a class="a" href="CountryLoved.html">想旅游的国家</a></li>
+					<li class="li"><a class="a" href="ContactMe.html">留言加好友</a></li>
+				</ul>
+			</div>
+			<!--end of nav-->
+			<!--表单区form-->
+				<form method="post" action="request.html">
+					<div class="tableRow">
+						<P>Name:</P>
+						<p><input type="text" name="name" value="" placeholder="韩梅梅" required></p>
+					</div>
+					<div class="tableRow">
+						<P>Sex:</P>
+						<p>
+							<select name="sex">
+								<option value="女">女</option>
+								<option value="男">男</option>
+							</select>
+						</p>
+					</div>
+					<div class="tableRow">
+						<p>Age:</p>
+						<p><input type="number" name="age" min="1" max="100"></p>
+					</div>
+					<div class="tableRow">
+						<p>Hometown:</p>
+						<p><input type="text" name="city" value="" placeholder="Wuhan" required></p>
+					</div>
+					<div class="tableRow">
+							<p> E-mail: </p>
+							<p> <input type="text" name="email" value="" placeholder="123456789@qq.com" required> </p>
+					</div>
+					<div class="tableRow">
+							<p> Phone: </p>
+							<p> <input type="tel" name="phone" value="" placeholder="134-6735-2368" required> </p>
+					</div>
+					<div class="tableRow">
+						<p>Self-Introduction: </p>
+						<p><textarea name="self-introduction"></textarea></p>
+					</div>
+					<div class="tableRow">
+						<p></p>
+						<p> <input type="submit" value="Submit"> </p>
+					</div>
+				</form>
+			<!--end of form-->
+			<!--页眉区footer-->
+			<div id="footer">	
+				<p>
+					ZLの个人博客<br>
+					Copyright©2020,保留一切权利Powered by ZL
+				</p>
+			</div>
+			<!--end of footer-->
+		</div>
+	</body>
+</html>

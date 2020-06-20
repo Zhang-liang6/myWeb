@@ -1,0 +1,205 @@
+/*全局布局*/
+body{
+	margin:0;
+	background-color:#F5F5F5;
+}
+
+div.inner{
+	width:1000px;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*页眉区布局*/
+div#header{
+	height:360px;
+	background-image:url(../images/19.jpg);
+	background-repeat:no-repeat;
+}
+
+/*导航区布局*/
+div#nav{
+	height:55px;
+	background-color:#EEC591;
+	margin:0;
+	padding:0;
+}
+
+/*内容区一布局*/
+div#container_1{
+	float:left;
+	width:210px;
+	margin-left:10px;
+	margin-top:15px;
+	height:700px;
+}
+
+/*内容区二布局*/
+div#container_2{
+	float:right;
+	width:700px;
+	margin-right:10px;
+	margin-left:0;
+	height:850px;
+}
+
+div#container_2 div#cont_2{
+	height:60px;
+	margin-left:0px;
+	border-bottom:1px solid #ccc;
+}
+
+div#container_2 div#cont_2_1{
+	height:333px;
+	width:500px;
+	background-image:url(../images/20.jpg);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#container_2 div#cont_2_2{
+	height:80px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+}
+
+div#container_2 div#cont_2_3{
+	height:330px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	border:8px solid #EEC591;	
+}
+
+div#container_2 div#cont_2_4{
+	height:610px;
+	width:610px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:5px;
+}
+
+/*页脚区布局*/
+div#footer{
+	height:80px;
+	background-color:#EEC591;
+	font-family:"SimsSun";
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1620px;
+}
+
+/*导航区的样式*/
+div#nav .ul{
+	margin:0px auto 0px auto;
+	padding:0;
+	height:55px;
+}
+
+div#nav .li{
+	float:left;
+	list-style-type:none;
+}
+
+div#nav .a{
+	display:block;
+	background-color:#EEC591;
+	color:#030303;
+	width:200px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	font-size:20px;	
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 10px 0;
+	text-decoration: none;
+}
+
+div#nav .a:hover{
+	background-color:#EE9A00;
+}
+
+/*内容区一的样式*/
+div#container_1 .a1{
+	display:block;
+	background-color:#fff;
+	color:#777;
+	width:200px;
+	height:22px;
+	padding:10px 0;
+	margin:0;
+	text-indent:2em;
+	font-size:14px;	
+	font-weight:bold;
+	text-decoration: none;
+}
+
+div#container_1 .a1:hover{
+	background-color:#EEC591;
+	color:#fff;
+}
+
+div#container_1 .li1{
+	list-style-type:none;
+}
+
+div#container_1 .td_bottom{
+	border-bottom:1px solid #ccc;
+	width:200px;
+	height:40px;
+}
+
+/*内容区二的样式*/
+div#container_2 div#cont_2 .cont_2{
+	height:40px;
+	line-height:40px;
+	font-size:15px;
+	color:#CC9966;
+	font-family:"SimSun";
+	font-weight:bold;
+	list-style-type:none;
+	margin-top:0px;
+	margin-left:3px;
+}
+
+
+div#container_2 div#cont_2_4 .cont_2_4_1{
+	height:50px;
+	width:150px;
+	background-color:#EEC591;
+}
+
+div#container_2 div#cont_2_4 .cont_2_4_2{
+	height:200px;
+}
+
+div#container_2 div#cont_2_4 .cont_2_4_3{
+	height:60px;
+}
+
+.title{
+	color:#525252;
+	font-family:"SimsSun";
+	font-size:24px;	
+	font-weight:bold;
+	line-height:190%;
+	text-align:center;
+}
+
+.pa{
+	color:#525252;
+	font-family:"Microsoft YaHei";
+	font-size:14px;	
+	font-weight:bold;
+	line-height:150%;
+	text-indent:2em;
+}

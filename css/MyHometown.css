@@ -1,0 +1,249 @@
+/*全局布局*/
+body{
+	margin:0;
+	background-color:#F5F5F5;
+}
+
+div.inner{
+	width:1000px;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*页眉区布局*/
+div#header{
+	height:360px;
+	background-image:url(../images/19.jpg);
+	background-repeat:no-repeat;
+}
+
+/*导航区布局*/
+div#nav{
+	height:55px;
+	background-color:#EEC591;
+	margin:0;
+	padding:0;
+}
+
+/*内容区一布局*/
+div#container_1{
+	height:255px;
+	margin-top:20px;
+}
+
+div#container_1 div#cont_1_1{
+	float:left;
+	width:310px;
+	height:220px;
+	margin-top:10px;
+	margin-left:30px;
+	background-image:url(../images/8.jpg);
+	background-repeat:no-repeat;
+	border:4px solid #EEC591;
+}
+
+div#container_1 div#cont_1_2{
+	float:left;
+	width:610px;
+	height:230px;
+	background-color:#FFFFFF;
+	color:#080808;
+	font-family:"SimsSun";
+	margin-left:30px;
+	font-size:18px;
+	line-height:24px;
+	text-indent:2em;
+	margin-top:8px;
+}
+
+/*内容区二布局*/
+div#container_2{
+	height:500px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#container_2 div#cont_2_1{
+	height:50px;
+	width:150px;
+	background-color:#EEC591;
+}
+
+div#container_2 div#cont_2_2{
+	height:350px;	
+}
+
+/*内容区三布局*/
+div#container_3{
+	height:460px;
+	width:918px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+div#container_3 div#cont_3{
+	height:50px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#EEC591;
+}
+
+div#container_3 div#cont_3_1{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-top:10px;
+	background-image:url(../images/武汉早点.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+div#container_3 div#cont_3_2{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-left:15px;
+	margin-top:10px;
+	background-image:url(../images/户部巷图标.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+div#container_3 div#cont_3_3{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-left:15px;
+	margin-top:10px;
+	background-image:url(../images/武汉早点1.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+/*内容区四布局*/
+div#container_4{
+	height:460px;
+	width:918px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+div#container_4 div#cont_4{
+	height:50px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#EEC591;
+}
+
+div#container_4 div#cont_4_1{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-top:10px;
+	background-image:url(../images/武汉宵夜.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+div#container_4 div#cont_4_2{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-left:15px;
+	margin-top:10px;
+	background-image:url(../images/吉庆街夜景.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+div#container_4 div#cont_4_3{
+	float:left;
+	height:400px;
+	width:290px;
+	margin-left:15px;
+	margin-top:10px;
+	background-image:url(../images/武汉宵夜2.jpg);
+	background-repeat:no-repeat;
+	border:3px solid #EEC591;
+}
+
+/*页脚区布局*/
+div#footer{
+	height:80px;
+	background-color:#EEC591;
+	font-family:"SimsSun";
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*导航区的样式*/
+div#nav .ul{
+	margin:0px auto 0px auto;
+	padding:0;
+	height:55px;
+}
+
+div#nav .li{
+	float:left;
+	list-style-type:none;
+}
+
+div#nav .a{
+	display:block;
+	background-color:#EEC591;
+	color:#030303;
+	width:200px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	font-size:20px;	
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 10px 0;
+	text-decoration: none;
+}
+
+div#nav .a:hover{
+	background-color:#EE9A00;
+}
+
+/*内容区二的样式*/
+.title{
+	color:#525252;
+	font-family:"SimsSun";
+	font-size:24px;	
+	font-weight:bold;
+	line-height:190%;
+	text-align:center;
+}
+
+.pa{
+	color:#838B8B;
+	font-family:"SimsSun";
+	font-size:16px;	
+	font-weight:bold;
+	line-height:150%;
+	text-align:center;
+}
+
+.p{
+	color:#525252;
+	font-family:"SimsSun";
+	font-size:16px;	
+	font-weight:bold;
+	line-height:150%;
+	text-indent:2em;
+}
